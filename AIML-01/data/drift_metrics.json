@@ -1,0 +1,34 @@
+{
+  "dataset_drift_detected": true,
+  "drift_share": 0.3333,
+  "number_of_drifted_features": 2,
+  "total_monitored_features": 6,
+  "drift_threshold_share": 0.15,
+  "feature_details": {
+    "amount": {
+      "p_value": 0.40797360133861205,
+      "is_drifted": false
+    },
+    "amount_to_user_avg_ratio": {
+      "p_value": 0.01179138904270062,
+      "is_drifted": true
+    },
+    "location_delta_km": {
+      "p_value": 0.04462256639851569,
+      "is_drifted": true
+    },
+    "velocity_1h": {
+      "p_value": 0.8325546111576977,
+      "is_drifted": false
+    },
+    "velocity_24h": {
+      "p_value": 0.010550857826119092,
+      "is_drifted": true
+    },
+    "device_changed_flag": {
+      "p_value": 0.0019286891398635631,
+      "is_drifted": true
+    }
+  },
+  "retrain_triggered": true
+}

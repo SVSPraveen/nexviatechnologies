@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fraud-detection-prototype
+  labels:
+    app.kubernetes.io/name: fraud-detection-prototype
+    app.kubernetes.io/part-of: aegis-fraud-intelligence
+

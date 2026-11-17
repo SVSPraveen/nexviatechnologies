@@ -1,0 +1,10 @@
+{
+  "xgboost_weight": 0.65,
+  "gnn_weight": 0.35,
+  "gnn_pr_auc": 0.2896972386313108,
+  "gnn_roc_auc": 0.9851462501884245,
+  "formula": "P_blend = 0.65 * P_xgboost + 0.35 * P_gnn",
+  "description": "Monotonic weighted blend of tabular behavioral features and graph community ring risk",
+  "threshold_review": 0.7,
+  "threshold_block": 0.9
+}
